@@ -1,0 +1,1290 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_4f472de09b3e8e87bbe08de054b7da92 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_4f472de09b3e8e87bbe08de054b7da92" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_4f472de09b3e8e87bbe08de054b7da92 = L.map(
+                "map_4f472de09b3e8e87bbe08de054b7da92",
+                {
+                    center: [37.201167, 127.095111],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_03466b93e1de31d20aa62cce4bb9dc86 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_03466b93e1de31d20aa62cce4bb9dc86.addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+            var circle_marker_63ce6a60916913d589f8d833e7140149 = L.circleMarker(
+                [37.1991167, 127.07425],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.24896265560166, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_2e22f59d5c3114e652cbbc07b3742da1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_300b420b7c00a950b32160224b8ac979 = $(`<div id="html_300b420b7c00a950b32160224b8ac979" style="width: 100.0%; height: 100.0%;">정류장: 솔빛동탄경남아너스빌<br>정류장ID: 233000070<br>가중치: 4</div>`)[0];
+                popup_2e22f59d5c3114e652cbbc07b3742da1.setContent(html_300b420b7c00a950b32160224b8ac979);
+            
+        
+
+        circle_marker_63ce6a60916913d589f8d833e7140149.bindPopup(popup_2e22f59d5c3114e652cbbc07b3742da1)
+        ;
+
+        
+    
+    
+            circle_marker_63ce6a60916913d589f8d833e7140149.bindTooltip(
+                `<div>
+                     솔빛동탄경남아너스빌
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_a776485be8d2f32b4f9342121dd01cfe = L.circleMarker(
+                [37.2042667, 127.0674833],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.141078838174273, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_2c7108a95c18423a8b1fb89e86217db2 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bc74e1c1d8f4c45a9eea4c6ff25259fc = $(`<div id="html_bc74e1c1d8f4c45a9eea4c6ff25259fc" style="width: 100.0%; height: 100.0%;">정류장: 메타폴리스(중)<br>정류장ID: 233001218<br>가중치: 179</div>`)[0];
+                popup_2c7108a95c18423a8b1fb89e86217db2.setContent(html_bc74e1c1d8f4c45a9eea4c6ff25259fc);
+            
+        
+
+        circle_marker_a776485be8d2f32b4f9342121dd01cfe.bindPopup(popup_2c7108a95c18423a8b1fb89e86217db2)
+        ;
+
+        
+    
+    
+            circle_marker_a776485be8d2f32b4f9342121dd01cfe.bindTooltip(
+                `<div>
+                     메타폴리스(중)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ed093ad68d2f0e4f889a0faf4661aec0 = L.circleMarker(
+                [37.2037333, 127.0675167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.141078838174273, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_e331a95ec458eaffc0a86fc5f54c97ca = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_85db84abcafe2bc9c1aa237fa0f2745c = $(`<div id="html_85db84abcafe2bc9c1aa237fa0f2745c" style="width: 100.0%; height: 100.0%;">정류장: 메타폴리스(중)<br>정류장ID: 233001219<br>가중치: 179</div>`)[0];
+                popup_e331a95ec458eaffc0a86fc5f54c97ca.setContent(html_85db84abcafe2bc9c1aa237fa0f2745c);
+            
+        
+
+        circle_marker_ed093ad68d2f0e4f889a0faf4661aec0.bindPopup(popup_e331a95ec458eaffc0a86fc5f54c97ca)
+        ;
+
+        
+    
+    
+            circle_marker_ed093ad68d2f0e4f889a0faf4661aec0.bindTooltip(
+                `<div>
+                     메타폴리스(중)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_21cc53a59399e38226becc30dad7330c = L.circleMarker(
+                [37.1999833, 127.0675833],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.082987551867221, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_847f4c4ae51773744df9d6b6c1a2f078 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_286fc16681eadb2e85b47df84794a304 = $(`<div id="html_286fc16681eadb2e85b47df84794a304" style="width: 100.0%; height: 100.0%;">정류장: 다은마을(중)<br>정류장ID: 233001224<br>가중치: 162</div>`)[0];
+                popup_847f4c4ae51773744df9d6b6c1a2f078.setContent(html_286fc16681eadb2e85b47df84794a304);
+            
+        
+
+        circle_marker_21cc53a59399e38226becc30dad7330c.bindPopup(popup_847f4c4ae51773744df9d6b6c1a2f078)
+        ;
+
+        
+    
+    
+            circle_marker_21cc53a59399e38226becc30dad7330c.bindTooltip(
+                `<div>
+                     다은마을(중)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e328ae8e4b169d90bc1a1f9e273178e0 = L.circleMarker(
+                [37.21095, 127.0720667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 16.203319502074688, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_f26c6a5f053265747118f2a9063148be = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_2176f8616228c2f927c6b065b4304a09 = $(`<div id="html_2176f8616228c2f927c6b065b4304a09" style="width: 100.0%; height: 100.0%;">정류장: 예당마을.롯데캐슬(중)<br>정류장ID: 233001281<br>가중치: 180</div>`)[0];
+                popup_f26c6a5f053265747118f2a9063148be.setContent(html_2176f8616228c2f927c6b065b4304a09);
+            
+        
+
+        circle_marker_e328ae8e4b169d90bc1a1f9e273178e0.bindPopup(popup_f26c6a5f053265747118f2a9063148be)
+        ;
+
+        
+    
+    
+            circle_marker_e328ae8e4b169d90bc1a1f9e273178e0.bindTooltip(
+                `<div>
+                     예당마을.롯데캐슬(중)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_98c7f6053e32a396ce214c46997816bb = L.circleMarker(
+                [37.1994333, 127.06415],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 15.082987551867221, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_e4b0e45a760879592540e477ce6b978d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0f0cba04a6ced9ada2380e1497dc3ee9 = $(`<div id="html_0f0cba04a6ced9ada2380e1497dc3ee9" style="width: 100.0%; height: 100.0%;">정류장: 센트럴파크뷰아파트(중)<br>정류장ID: 233001283<br>가중치: 162</div>`)[0];
+                popup_e4b0e45a760879592540e477ce6b978d.setContent(html_0f0cba04a6ced9ada2380e1497dc3ee9);
+            
+        
+
+        circle_marker_98c7f6053e32a396ce214c46997816bb.bindPopup(popup_e4b0e45a760879592540e477ce6b978d)
+        ;
+
+        
+    
+    
+            circle_marker_98c7f6053e32a396ce214c46997816bb.bindTooltip(
+                `<div>
+                     센트럴파크뷰아파트(중)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e3c66c8f2814801576f3e44cbe3e0992 = L.circleMarker(
+                [37.21135, 127.0677167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.244813278008299, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_0294bfc819b81726f8d805fccf5071c1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_881254a39152677f4354a262e22bb966 = $(`<div id="html_881254a39152677f4354a262e22bb966" style="width: 100.0%; height: 100.0%;">정류장: 개나리공원<br>정류장ID: 233001437<br>가중치: 20</div>`)[0];
+                popup_0294bfc819b81726f8d805fccf5071c1.setContent(html_881254a39152677f4354a262e22bb966);
+            
+        
+
+        circle_marker_e3c66c8f2814801576f3e44cbe3e0992.bindPopup(popup_0294bfc819b81726f8d805fccf5071c1)
+        ;
+
+        
+    
+    
+            circle_marker_e3c66c8f2814801576f3e44cbe3e0992.bindTooltip(
+                `<div>
+                     개나리공원
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_24a909050085bdbd5230b884fa2d65d0 = L.circleMarker(
+                [37.1958167, 127.0696333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.344398340248961, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_3ef7e090699302bc03393b7ba41d3b8c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_3e32026aa2120fad6fb45c2c86e36342 = $(`<div id="html_3e32026aa2120fad6fb45c2c86e36342" style="width: 100.0%; height: 100.0%;">정류장: 솔빛마을.서해.쌍용아파트<br>정류장ID: 233001450<br>가중치: 118</div>`)[0];
+                popup_3ef7e090699302bc03393b7ba41d3b8c.setContent(html_3e32026aa2120fad6fb45c2c86e36342);
+            
+        
+
+        circle_marker_24a909050085bdbd5230b884fa2d65d0.bindPopup(popup_3ef7e090699302bc03393b7ba41d3b8c)
+        ;
+
+        
+    
+    
+            circle_marker_24a909050085bdbd5230b884fa2d65d0.bindTooltip(
+                `<div>
+                     솔빛마을.서해.쌍용아파트
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b7c9064a845122ff7043198e3f92ece1 = L.circleMarker(
+                [37.1961833, 127.0773333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.373443983402489, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_a1589c0171d04847122354db17bd4b16 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_04b38219933294416894a9093f4daeb2 = $(`<div id="html_04b38219933294416894a9093f4daeb2" style="width: 100.0%; height: 100.0%;">정류장: 노작마을.한화우림<br>정류장ID: 233001486<br>가중치: 6</div>`)[0];
+                popup_a1589c0171d04847122354db17bd4b16.setContent(html_04b38219933294416894a9093f4daeb2);
+            
+        
+
+        circle_marker_b7c9064a845122ff7043198e3f92ece1.bindPopup(popup_a1589c0171d04847122354db17bd4b16)
+        ;
+
+        
+    
+    
+            circle_marker_b7c9064a845122ff7043198e3f92ece1.bindTooltip(
+                `<div>
+                     노작마을.한화우림
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_4e3d049cfb15c9f1d489d566319cdd41 = L.circleMarker(
+                [37.19715, 127.0726],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.738589211618257, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_c9fcc4ba9e9e0918cce14efa85d05631 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8f7ba71a29c6f4db04202ab5dc417a91 = $(`<div id="html_8f7ba71a29c6f4db04202ab5dc417a91" style="width: 100.0%; height: 100.0%;">정류장: 동탄2동행정복지센터<br>정류장ID: 233001640<br>가중치: 44</div>`)[0];
+                popup_c9fcc4ba9e9e0918cce14efa85d05631.setContent(html_8f7ba71a29c6f4db04202ab5dc417a91);
+            
+        
+
+        circle_marker_4e3d049cfb15c9f1d489d566319cdd41.bindPopup(popup_c9fcc4ba9e9e0918cce14efa85d05631)
+        ;
+
+        
+    
+    
+            circle_marker_4e3d049cfb15c9f1d489d566319cdd41.bindTooltip(
+                `<div>
+                     동탄2동행정복지센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_509dc39b217876df3532f324f7843ddf = L.circleMarker(
+                [37.20685, 127.07235],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.962655601659751, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_dd34afc17b685d1cceecb4c3f24e4654 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_8c80bfea485ff81a7fc1dbc285592aaa = $(`<div id="html_8c80bfea485ff81a7fc1dbc285592aaa" style="width: 100.0%; height: 100.0%;">정류장: 동탄1동행정복지센터.헌혈의집<br>정류장ID: 233001650<br>가중치: 144</div>`)[0];
+                popup_dd34afc17b685d1cceecb4c3f24e4654.setContent(html_8c80bfea485ff81a7fc1dbc285592aaa);
+            
+        
+
+        circle_marker_509dc39b217876df3532f324f7843ddf.bindPopup(popup_dd34afc17b685d1cceecb4c3f24e4654)
+        ;
+
+        
+    
+    
+            circle_marker_509dc39b217876df3532f324f7843ddf.bindTooltip(
+                `<div>
+                     동탄1동행정복지센터.헌혈의집
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0bbe9b5be77414b39487cd893c92f4e4 = L.circleMarker(
+                [37.2057333, 127.0706167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.091286307053942, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_4859859999426239054d77f60417af05 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_62f80237ae8d39e906631af73945a41c = $(`<div id="html_62f80237ae8d39e906631af73945a41c" style="width: 100.0%; height: 100.0%;">정류장: 현대아이파크<br>정류장ID: 233001651<br>가중치: 130</div>`)[0];
+                popup_4859859999426239054d77f60417af05.setContent(html_62f80237ae8d39e906631af73945a41c);
+            
+        
+
+        circle_marker_0bbe9b5be77414b39487cd893c92f4e4.bindPopup(popup_4859859999426239054d77f60417af05)
+        ;
+
+        
+    
+    
+            circle_marker_0bbe9b5be77414b39487cd893c92f4e4.bindTooltip(
+                `<div>
+                     현대아이파크
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_217c1b7dc8c31cd2e40210dc58006d25 = L.circleMarker(
+                [37.2107, 127.0775833],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.153526970954356, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_9138a680a2575b718fad7000f3c8ad58 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f82f76e4c79ab855da0136a1e2acfbf4 = $(`<div id="html_f82f76e4c79ab855da0136a1e2acfbf4" style="width: 100.0%; height: 100.0%;">정류장: 예당예원초<br>정류장ID: 233001652<br>가중치: 131</div>`)[0];
+                popup_9138a680a2575b718fad7000f3c8ad58.setContent(html_f82f76e4c79ab855da0136a1e2acfbf4);
+            
+        
+
+        circle_marker_217c1b7dc8c31cd2e40210dc58006d25.bindPopup(popup_9138a680a2575b718fad7000f3c8ad58)
+        ;
+
+        
+    
+    
+            circle_marker_217c1b7dc8c31cd2e40210dc58006d25.bindTooltip(
+                `<div>
+                     예당예원초
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_55844440d8ebf756f828548b24f0483b = L.circleMarker(
+                [37.2092667, 127.0749167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 12.593360995850622, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_6635cfd6c96b61d4c15fb90112813b56 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_49d1043e5500f7a4ac185c62c238dc2f = $(`<div id="html_49d1043e5500f7a4ac185c62c238dc2f" style="width: 100.0%; height: 100.0%;">정류장: 롯데케슬정문<br>정류장ID: 233001653<br>가중치: 122</div>`)[0];
+                popup_6635cfd6c96b61d4c15fb90112813b56.setContent(html_49d1043e5500f7a4ac185c62c238dc2f);
+            
+        
+
+        circle_marker_55844440d8ebf756f828548b24f0483b.bindPopup(popup_6635cfd6c96b61d4c15fb90112813b56)
+        ;
+
+        
+    
+    
+            circle_marker_55844440d8ebf756f828548b24f0483b.bindTooltip(
+                `<div>
+                     롯데케슬정문
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ab71e8fb156e9cadc3145a35c4e9b005 = L.circleMarker(
+                [37.2096333, 127.0604667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.1161825726141075, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_65f8ea67e504371ab626935fa2b07188 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_dcf090039be13e7171b81f88ba808647 = $(`<div id="html_dcf090039be13e7171b81f88ba808647" style="width: 100.0%; height: 100.0%;">정류장: 미즈파크병원<br>정류장ID: 233001673<br>가중치: 34</div>`)[0];
+                popup_65f8ea67e504371ab626935fa2b07188.setContent(html_dcf090039be13e7171b81f88ba808647);
+            
+        
+
+        circle_marker_ab71e8fb156e9cadc3145a35c4e9b005.bindPopup(popup_65f8ea67e504371ab626935fa2b07188)
+        ;
+
+        
+    
+    
+            circle_marker_ab71e8fb156e9cadc3145a35c4e9b005.bindTooltip(
+                `<div>
+                     미즈파크병원
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_b4ee028f38f28a7948adc9f50a622486 = L.circleMarker(
+                [37.2080667, 127.0639333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.199170124481327, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_1abfd6e35c7ded9664c12f2231011e40 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6a2ed2b85b002346c71b9ad2c8911d43 = $(`<div id="html_6a2ed2b85b002346c71b9ad2c8911d43" style="width: 100.0%; height: 100.0%;">정류장: 센트럴파크<br>정류장ID: 233001675<br>가중치: 196</div>`)[0];
+                popup_1abfd6e35c7ded9664c12f2231011e40.setContent(html_6a2ed2b85b002346c71b9ad2c8911d43);
+            
+        
+
+        circle_marker_b4ee028f38f28a7948adc9f50a622486.bindPopup(popup_1abfd6e35c7ded9664c12f2231011e40)
+        ;
+
+        
+    
+    
+            circle_marker_b4ee028f38f28a7948adc9f50a622486.bindTooltip(
+                `<div>
+                     센트럴파크
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_13777c49eb18973a8b382608db041641 = L.circleMarker(
+                [37.2068167, 127.06655],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 17.199170124481327, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_7a8ab680847fba264683a8bdd33bfc1a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e5bd37a16d149fe1728bec2c82978bac = $(`<div id="html_e5bd37a16d149fe1728bec2c82978bac" style="width: 100.0%; height: 100.0%;">정류장: 한화꿈에그린아파트<br>정류장ID: 233001677<br>가중치: 196</div>`)[0];
+                popup_7a8ab680847fba264683a8bdd33bfc1a.setContent(html_e5bd37a16d149fe1728bec2c82978bac);
+            
+        
+
+        circle_marker_13777c49eb18973a8b382608db041641.bindPopup(popup_7a8ab680847fba264683a8bdd33bfc1a)
+        ;
+
+        
+    
+    
+            circle_marker_13777c49eb18973a8b382608db041641.bindTooltip(
+                `<div>
+                     한화꿈에그린아파트
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_572106ca8a85ac1337b2c03f3df7dc15 = L.circleMarker(
+                [37.2053667, 127.0707333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.091286307053942, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_8f853ba4c1c5d270640e9b4db593acbd = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_44998e81f9229553bc367c8d24222005 = $(`<div id="html_44998e81f9229553bc367c8d24222005" style="width: 100.0%; height: 100.0%;">정류장: 메타폴리스<br>정류장ID: 233001678<br>가중치: 130</div>`)[0];
+                popup_8f853ba4c1c5d270640e9b4db593acbd.setContent(html_44998e81f9229553bc367c8d24222005);
+            
+        
+
+        circle_marker_572106ca8a85ac1337b2c03f3df7dc15.bindPopup(popup_8f853ba4c1c5d270640e9b4db593acbd)
+        ;
+
+        
+    
+    
+            circle_marker_572106ca8a85ac1337b2c03f3df7dc15.bindTooltip(
+                `<div>
+                     메타폴리스
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8f9d3d9ec2c32dfa474e34b3a602a124 = L.circleMarker(
+                [37.20665, 127.0725667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.962655601659751, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_f53c8759014011ed3936a4f6ab8f0cc1 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_dfc01d2e3a8c19259f62c436d05d03ab = $(`<div id="html_dfc01d2e3a8c19259f62c436d05d03ab" style="width: 100.0%; height: 100.0%;">정류장: 동탄1동행정복지센터.헌혈의집<br>정류장ID: 233001679<br>가중치: 144</div>`)[0];
+                popup_f53c8759014011ed3936a4f6ab8f0cc1.setContent(html_dfc01d2e3a8c19259f62c436d05d03ab);
+            
+        
+
+        circle_marker_8f9d3d9ec2c32dfa474e34b3a602a124.bindPopup(popup_f53c8759014011ed3936a4f6ab8f0cc1)
+        ;
+
+        
+    
+    
+            circle_marker_8f9d3d9ec2c32dfa474e34b3a602a124.bindTooltip(
+                `<div>
+                     동탄1동행정복지센터.헌혈의집
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d76efc6fe2e94a5d50bd0e7648b09ecc = L.circleMarker(
+                [37.20755, 127.0746167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.4979253112033195, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_1257b0339bd0fea3766826e13b48b671 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f3ec6545be315e3d5a6393b31bca95e4 = $(`<div id="html_f3ec6545be315e3d5a6393b31bca95e4" style="width: 100.0%; height: 100.0%;">정류장: 예당마을<br>정류장ID: 233001680<br>가중치: 8</div>`)[0];
+                popup_1257b0339bd0fea3766826e13b48b671.setContent(html_f3ec6545be315e3d5a6393b31bca95e4);
+            
+        
+
+        circle_marker_d76efc6fe2e94a5d50bd0e7648b09ecc.bindPopup(popup_1257b0339bd0fea3766826e13b48b671)
+        ;
+
+        
+    
+    
+            circle_marker_d76efc6fe2e94a5d50bd0e7648b09ecc.bindTooltip(
+                `<div>
+                     예당마을
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_cc577eec6617b9d734c9a50f953c9f52 = L.circleMarker(
+                [37.20915, 127.07505],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.153526970954356, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_2783b9c72375c1822cdd69c6b6b8c38e = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_e0ed41176660dae1b22012e475f1cfd1 = $(`<div id="html_e0ed41176660dae1b22012e475f1cfd1" style="width: 100.0%; height: 100.0%;">정류장: 신일유토빌정문<br>정류장ID: 233001681<br>가중치: 131</div>`)[0];
+                popup_2783b9c72375c1822cdd69c6b6b8c38e.setContent(html_e0ed41176660dae1b22012e475f1cfd1);
+            
+        
+
+        circle_marker_cc577eec6617b9d734c9a50f953c9f52.bindPopup(popup_2783b9c72375c1822cdd69c6b6b8c38e)
+        ;
+
+        
+    
+    
+            circle_marker_cc577eec6617b9d734c9a50f953c9f52.bindTooltip(
+                `<div>
+                     신일유토빌정문
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7cdb382462ed12bd3ec01dc2834b07f4 = L.circleMarker(
+                [37.2105667, 127.0776667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 13.153526970954356, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_5ab8675dfc609ed2aba0afc89ad3777a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_81e13427c46b1095494611a08728daeb = $(`<div id="html_81e13427c46b1095494611a08728daeb" style="width: 100.0%; height: 100.0%;">정류장: 예당예원초<br>정류장ID: 233001682<br>가중치: 131</div>`)[0];
+                popup_5ab8675dfc609ed2aba0afc89ad3777a.setContent(html_81e13427c46b1095494611a08728daeb);
+            
+        
+
+        circle_marker_7cdb382462ed12bd3ec01dc2834b07f4.bindPopup(popup_5ab8675dfc609ed2aba0afc89ad3777a)
+        ;
+
+        
+    
+    
+            circle_marker_7cdb382462ed12bd3ec01dc2834b07f4.bindTooltip(
+                `<div>
+                     예당예원초
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d62a0c0a0039f5797ddf4ece79e81d39 = L.circleMarker(
+                [37.21315, 127.0792833],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_c963ca51bcd030a3620003fb57892bfc = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_409d5955baf5bcaec39a0f55777337e2 = $(`<div id="html_409d5955baf5bcaec39a0f55777337e2" style="width: 100.0%; height: 100.0%;">정류장: 전하리교회.우미제일<br>정류장ID: 233001683<br>가중치: 241</div>`)[0];
+                popup_c963ca51bcd030a3620003fb57892bfc.setContent(html_409d5955baf5bcaec39a0f55777337e2);
+            
+        
+
+        circle_marker_d62a0c0a0039f5797ddf4ece79e81d39.bindPopup(popup_c963ca51bcd030a3620003fb57892bfc)
+        ;
+
+        
+    
+    
+            circle_marker_d62a0c0a0039f5797ddf4ece79e81d39.bindTooltip(
+                `<div>
+                     전하리교회.우미제일
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_e4d58274a959cf211c6985dc4007641e = L.circleMarker(
+                [37.1971167, 127.06575],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.302904564315353, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_c9af9beb888b2b1d87f132937e054424 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0d4686bf33bd1091c24c61d6c2a38d00 = $(`<div id="html_0d4686bf33bd1091c24c61d6c2a38d00" style="width: 100.0%; height: 100.0%;">정류장: 센트럴포레스트정문<br>정류장ID: 233001697<br>가중치: 37</div>`)[0];
+                popup_c9af9beb888b2b1d87f132937e054424.setContent(html_0d4686bf33bd1091c24c61d6c2a38d00);
+            
+        
+
+        circle_marker_e4d58274a959cf211c6985dc4007641e.bindPopup(popup_c9af9beb888b2b1d87f132937e054424)
+        ;
+
+        
+    
+    
+            circle_marker_e4d58274a959cf211c6985dc4007641e.bindTooltip(
+                `<div>
+                     센트럴포레스트정문
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_93b31b151598fd18f0b2619c0bd2c3dc = L.circleMarker(
+                [37.2135, 127.06245],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.369294605809129, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_869c6d6961a07872e0f96a09718730ee = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_48b8504b015b81714255eeee5b0f157a = $(`<div id="html_48b8504b015b81714255eeee5b0f157a" style="width: 100.0%; height: 100.0%;">정류장: 능동주공단지<br>정류장ID: 233001715<br>가중치: 22</div>`)[0];
+                popup_869c6d6961a07872e0f96a09718730ee.setContent(html_48b8504b015b81714255eeee5b0f157a);
+            
+        
+
+        circle_marker_93b31b151598fd18f0b2619c0bd2c3dc.bindPopup(popup_869c6d6961a07872e0f96a09718730ee)
+        ;
+
+        
+    
+    
+            circle_marker_93b31b151598fd18f0b2619c0bd2c3dc.bindTooltip(
+                `<div>
+                     능동주공단지
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_aa82d9acae658e6140633e169a3d2bef = L.circleMarker(
+                [37.2071, 127.07605],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.995850622406639, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_803e144cafca66f7efa383ded1c103fb = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_d9d5e854c685d08395f406a900e771b4 = $(`<div id="html_d9d5e854c685d08395f406a900e771b4" style="width: 100.0%; height: 100.0%;">정류장: 동탄보건지소.우체국<br>정류장ID: 233001720<br>가중치: 16</div>`)[0];
+                popup_803e144cafca66f7efa383ded1c103fb.setContent(html_d9d5e854c685d08395f406a900e771b4);
+            
+        
+
+        circle_marker_aa82d9acae658e6140633e169a3d2bef.bindPopup(popup_803e144cafca66f7efa383ded1c103fb)
+        ;
+
+        
+    
+    
+            circle_marker_aa82d9acae658e6140633e169a3d2bef.bindTooltip(
+                `<div>
+                     동탄보건지소.우체국
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_72f2a05fee135f34fdd7440efba94964 = L.circleMarker(
+                [37.2008333, 127.0595833],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.244813278008299, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_3db919a75699fccff0f50d5d6b68b18f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_c3471fd831e148ce7f0d851c6a98d682 = $(`<div id="html_c3471fd831e148ce7f0d851c6a98d682" style="width: 100.0%; height: 100.0%;">정류장: 우림필유<br>정류장ID: 233001721<br>가중치: 20</div>`)[0];
+                popup_3db919a75699fccff0f50d5d6b68b18f.setContent(html_c3471fd831e148ce7f0d851c6a98d682);
+            
+        
+
+        circle_marker_72f2a05fee135f34fdd7440efba94964.bindPopup(popup_3db919a75699fccff0f50d5d6b68b18f)
+        ;
+
+        
+    
+    
+            circle_marker_72f2a05fee135f34fdd7440efba94964.bindTooltip(
+                `<div>
+                     우림필유
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_caebcb91234aae60df17595c488c4994 = L.circleMarker(
+                [37.2038, 127.0594667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 9.854771784232366, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_ef7dada37532d70f2a47cabf2d29b86d = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_b812186940c1107e64f91b48c9325ad5 = $(`<div id="html_b812186940c1107e64f91b48c9325ad5" style="width: 100.0%; height: 100.0%;">정류장: 동탄고.동탄청소년문화의집<br>정류장ID: 233001722<br>가중치: 78</div>`)[0];
+                popup_ef7dada37532d70f2a47cabf2d29b86d.setContent(html_b812186940c1107e64f91b48c9325ad5);
+            
+        
+
+        circle_marker_caebcb91234aae60df17595c488c4994.bindPopup(popup_ef7dada37532d70f2a47cabf2d29b86d)
+        ;
+
+        
+    
+    
+            circle_marker_caebcb91234aae60df17595c488c4994.bindTooltip(
+                `<div>
+                     동탄고.동탄청소년문화의집
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_d7f71a4bd58b1a0e4a9b9a8ad1b165d2 = L.circleMarker(
+                [37.1988, 127.0702667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.809128630705394, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_e52d858c31eda483ef110000cde9923c = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_7fd80c3cecb31d5aa75ae22a125d1d9e = $(`<div id="html_7fd80c3cecb31d5aa75ae22a125d1d9e" style="width: 100.0%; height: 100.0%;">정류장: 서해그랑블아파트<br>정류장ID: 233001733<br>가중치: 13</div>`)[0];
+                popup_e52d858c31eda483ef110000cde9923c.setContent(html_7fd80c3cecb31d5aa75ae22a125d1d9e);
+            
+        
+
+        circle_marker_d7f71a4bd58b1a0e4a9b9a8ad1b165d2.bindPopup(popup_e52d858c31eda483ef110000cde9923c)
+        ;
+
+        
+    
+    
+            circle_marker_d7f71a4bd58b1a0e4a9b9a8ad1b165d2.bindTooltip(
+                `<div>
+                     서해그랑블아파트
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6d534ed77e1f46e4989c0606d5b5296c = L.circleMarker(
+                [37.2071, 127.0765667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.618257261410788, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_52e537d7e27baa5aa88a66464ec632e3 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_a269769b50d2d5e0ae5750f3cb242f07 = $(`<div id="html_a269769b50d2d5e0ae5750f3cb242f07" style="width: 100.0%; height: 100.0%;">정류장: 동탄보건지소.우체국<br>정류장ID: 233001735<br>가중치: 26</div>`)[0];
+                popup_52e537d7e27baa5aa88a66464ec632e3.setContent(html_a269769b50d2d5e0ae5750f3cb242f07);
+            
+        
+
+        circle_marker_6d534ed77e1f46e4989c0606d5b5296c.bindPopup(popup_52e537d7e27baa5aa88a66464ec632e3)
+        ;
+
+        
+    
+    
+            circle_marker_6d534ed77e1f46e4989c0606d5b5296c.bindTooltip(
+                `<div>
+                     동탄보건지소.우체국
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0da1db5fadafd47399ddaab585d5dbf9 = L.circleMarker(
+                [37.2085, 127.07895],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.618257261410788, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_e609aadf318ca41b3c67431dacc24ae9 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_223f2a40da01f37faaf556fa894c3329 = $(`<div id="html_223f2a40da01f37faaf556fa894c3329" style="width: 100.0%; height: 100.0%;">정류장: 대우푸르지오.예당고등학교<br>정류장ID: 233001736<br>가중치: 26</div>`)[0];
+                popup_e609aadf318ca41b3c67431dacc24ae9.setContent(html_223f2a40da01f37faaf556fa894c3329);
+            
+        
+
+        circle_marker_0da1db5fadafd47399ddaab585d5dbf9.bindPopup(popup_e609aadf318ca41b3c67431dacc24ae9)
+        ;
+
+        
+    
+    
+            circle_marker_0da1db5fadafd47399ddaab585d5dbf9.bindTooltip(
+                `<div>
+                     대우푸르지오.예당고등학교
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_ef79af900604598c721eced8f591f9c2 = L.circleMarker(
+                [37.2259833, 127.0596667],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.87136929460581, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_3f1509a03fa2594ed578a35faafc50f0 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_0b368463d3b4b38e617e49985de94304 = $(`<div id="html_0b368463d3b4b38e617e49985de94304" style="width: 100.0%; height: 100.0%;">정류장: 반월e편한세상<br>정류장ID: 233001963<br>가중치: 14</div>`)[0];
+                popup_3f1509a03fa2594ed578a35faafc50f0.setContent(html_0b368463d3b4b38e617e49985de94304);
+            
+        
+
+        circle_marker_ef79af900604598c721eced8f591f9c2.bindPopup(popup_3f1509a03fa2594ed578a35faafc50f0)
+        ;
+
+        
+    
+    
+            circle_marker_ef79af900604598c721eced8f591f9c2.bindTooltip(
+                `<div>
+                     반월e편한세상
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_5b07a71326b3a6ef21d0e2af53d60326 = L.circleMarker(
+                [37.2094333, 127.0716],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.3070539419087135, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_6ec1b467fff79d91d773f08ccaf4fee4 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_18cdaa7a8421f5d7936d316254e627f1 = $(`<div id="html_18cdaa7a8421f5d7936d316254e627f1" style="width: 100.0%; height: 100.0%;">정류장: 잎새지하차도<br>정류장ID: 233001972<br>가중치: 21</div>`)[0];
+                popup_6ec1b467fff79d91d773f08ccaf4fee4.setContent(html_18cdaa7a8421f5d7936d316254e627f1);
+            
+        
+
+        circle_marker_5b07a71326b3a6ef21d0e2af53d60326.bindPopup(popup_6ec1b467fff79d91d773f08ccaf4fee4)
+        ;
+
+        
+    
+    
+            circle_marker_5b07a71326b3a6ef21d0e2af53d60326.bindTooltip(
+                `<div>
+                     잎새지하차도
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_bd2aa5222e64433056fdf4dfe2479108 = L.circleMarker(
+                [37.2090667, 127.0713],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.3070539419087135, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_600d83fc9e510065bdda92f56c291135 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1a353f8aa00854204ce16e5fc98513e1 = $(`<div id="html_1a353f8aa00854204ce16e5fc98513e1" style="width: 100.0%; height: 100.0%;">정류장: 잎새지하차도<br>정류장ID: 233001973<br>가중치: 21</div>`)[0];
+                popup_600d83fc9e510065bdda92f56c291135.setContent(html_1a353f8aa00854204ce16e5fc98513e1);
+            
+        
+
+        circle_marker_bd2aa5222e64433056fdf4dfe2479108.bindPopup(popup_600d83fc9e510065bdda92f56c291135)
+        ;
+
+        
+    
+    
+            circle_marker_bd2aa5222e64433056fdf4dfe2479108.bindTooltip(
+                `<div>
+                     잎새지하차도
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7c2952d64c23e96c9c1cac17acff40d7 = L.circleMarker(
+                [37.2247167, 127.0741333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10.29045643153527, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_7d8cdb005b0b5e7baaed49ff8a80b4af = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_619d419ad4e17aec443204bd2e347768 = $(`<div id="html_619d419ad4e17aec443204bd2e347768" style="width: 100.0%; height: 100.0%;">정류장: IT단지(중)<br>정류장ID: 233001978<br>가중치: 85</div>`)[0];
+                popup_7d8cdb005b0b5e7baaed49ff8a80b4af.setContent(html_619d419ad4e17aec443204bd2e347768);
+            
+        
+
+        circle_marker_7c2952d64c23e96c9c1cac17acff40d7.bindPopup(popup_7d8cdb005b0b5e7baaed49ff8a80b4af)
+        ;
+
+        
+    
+    
+            circle_marker_7c2952d64c23e96c9c1cac17acff40d7.bindTooltip(
+                `<div>
+                     IT단지(중)
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_92be2fd1948ae65e77def5d51a6729d9 = L.circleMarker(
+                [37.2040333, 127.0709833],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.240663900414938, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_2bf2a1009f65d6e4ae0dced5fad102f8 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_fce9aff791d98d270ead94f965aaa372 = $(`<div id="html_fce9aff791d98d270ead94f965aaa372" style="width: 100.0%; height: 100.0%;">정류장: 동양파라곤<br>정류장ID: 233002092<br>가중치: 36</div>`)[0];
+                popup_2bf2a1009f65d6e4ae0dced5fad102f8.setContent(html_fce9aff791d98d270ead94f965aaa372);
+            
+        
+
+        circle_marker_92be2fd1948ae65e77def5d51a6729d9.bindPopup(popup_2bf2a1009f65d6e4ae0dced5fad102f8)
+        ;
+
+        
+    
+    
+            circle_marker_92be2fd1948ae65e77def5d51a6729d9.bindTooltip(
+                `<div>
+                     동양파라곤
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_170c909ffba0132ea0cfbb849db3b90a = L.circleMarker(
+                [37.2040333, 127.07135],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.240663900414938, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_87e5c4aff9b0b7ffe7eaf5728c8bc96a = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_01f84d4fed10b973e11343141ee7d582 = $(`<div id="html_01f84d4fed10b973e11343141ee7d582" style="width: 100.0%; height: 100.0%;">정류장: 동양파라곤<br>정류장ID: 233002093<br>가중치: 36</div>`)[0];
+                popup_87e5c4aff9b0b7ffe7eaf5728c8bc96a.setContent(html_01f84d4fed10b973e11343141ee7d582);
+            
+        
+
+        circle_marker_170c909ffba0132ea0cfbb849db3b90a.bindPopup(popup_87e5c4aff9b0b7ffe7eaf5728c8bc96a)
+        ;
+
+        
+    
+    
+            circle_marker_170c909ffba0132ea0cfbb849db3b90a.bindTooltip(
+                `<div>
+                     동양파라곤
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_0c18a8f1f8675badce6a6d44b388f91a = L.circleMarker(
+                [37.2020167, 127.0693167],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 7.800829875518672, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_750e10aacafa8bc8d71d5d01d7ba131f = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_1d46bb9d170a75ef18361cbdfd6e25e6 = $(`<div id="html_1d46bb9d170a75ef18361cbdfd6e25e6" style="width: 100.0%; height: 100.0%;">정류장: 동탄홈플러스<br>정류장ID: 233002376<br>가중치: 45</div>`)[0];
+                popup_750e10aacafa8bc8d71d5d01d7ba131f.setContent(html_1d46bb9d170a75ef18361cbdfd6e25e6);
+            
+        
+
+        circle_marker_0c18a8f1f8675badce6a6d44b388f91a.bindPopup(popup_750e10aacafa8bc8d71d5d01d7ba131f)
+        ;
+
+        
+    
+    
+            circle_marker_0c18a8f1f8675badce6a6d44b388f91a.bindTooltip(
+                `<div>
+                     동탄홈플러스
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_05080dae8b989e198e65dfb723a8c2b7 = L.circleMarker(
+                [37.20275, 127.0739333],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 6.244813278008299, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_631c6be55b4aaf2c7cf2b666807d1acd = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_f66fcb1a43869684917f8a889e854842 = $(`<div id="html_f66fcb1a43869684917f8a889e854842" style="width: 100.0%; height: 100.0%;">정류장: 화성미디어센터<br>정류장ID: 233002674<br>가중치: 20</div>`)[0];
+                popup_631c6be55b4aaf2c7cf2b666807d1acd.setContent(html_f66fcb1a43869684917f8a889e854842);
+            
+        
+
+        circle_marker_05080dae8b989e198e65dfb723a8c2b7.bindPopup(popup_631c6be55b4aaf2c7cf2b666807d1acd)
+        ;
+
+        
+    
+    
+            circle_marker_05080dae8b989e198e65dfb723a8c2b7.bindTooltip(
+                `<div>
+                     화성미디어센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_8ec1a16460bec40afba2e9f290927902 = L.circleMarker(
+                [37.20915, 127.07505],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_47f5e8a144ae749acbb1b5e4e2b41661 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_6b4524acdeff61e512a20bc9857404ea = $(`<div id="html_6b4524acdeff61e512a20bc9857404ea" style="width: 100.0%; height: 100.0%;">정류장: 신일유토빌정문<br>정류장ID: 233002681<br>가중치: 0</div>`)[0];
+                popup_47f5e8a144ae749acbb1b5e4e2b41661.setContent(html_6b4524acdeff61e512a20bc9857404ea);
+            
+        
+
+        circle_marker_8ec1a16460bec40afba2e9f290927902.bindPopup(popup_47f5e8a144ae749acbb1b5e4e2b41661)
+        ;
+
+        
+    
+    
+            circle_marker_8ec1a16460bec40afba2e9f290927902.bindTooltip(
+                `<div>
+                     신일유토빌정문
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_6067fa141d0693f7169b237f597da653 = L.circleMarker(
+                [37.205, 127.0727833],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 5.124481327800829, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_1d06dbcae58f9d94d3df4e030f95fd63 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_bc4dd62a861db8c17fcffab93051ce43 = $(`<div id="html_bc4dd62a861db8c17fcffab93051ce43" style="width: 100.0%; height: 100.0%;">정류장: 동탄119안전센터<br>정류장ID: 233002954<br>가중치: 2</div>`)[0];
+                popup_1d06dbcae58f9d94d3df4e030f95fd63.setContent(html_bc4dd62a861db8c17fcffab93051ce43);
+            
+        
+
+        circle_marker_6067fa141d0693f7169b237f597da653.bindPopup(popup_1d06dbcae58f9d94d3df4e030f95fd63)
+        ;
+
+        
+    
+    
+            circle_marker_6067fa141d0693f7169b237f597da653.bindTooltip(
+                `<div>
+                     동탄119안전센터
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var circle_marker_7b193ec15133af5f2e9ee5e0af2408db = L.circleMarker(
+                [37.2121333, 127.0793833],
+                {"bubblingMouseEvents": true, "color": "blue", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "blue", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 20.0, "stroke": true, "weight": 3}
+            ).addTo(map_4f472de09b3e8e87bbe08de054b7da92);
+        
+    
+        var popup_d8cc9981da7fc21f7e8e7c55cb68dc44 = L.popup({"maxWidth": 300});
+
+        
+            
+                var html_dbc8be6452716e3b21cb25acc43ea9fe = $(`<div id="html_dbc8be6452716e3b21cb25acc43ea9fe" style="width: 100.0%; height: 100.0%;">정류장: 우미제일.전하리교회<br>정류장ID: 233003186<br>가중치: 241</div>`)[0];
+                popup_d8cc9981da7fc21f7e8e7c55cb68dc44.setContent(html_dbc8be6452716e3b21cb25acc43ea9fe);
+            
+        
+
+        circle_marker_7b193ec15133af5f2e9ee5e0af2408db.bindPopup(popup_d8cc9981da7fc21f7e8e7c55cb68dc44)
+        ;
+
+        
+    
+    
+            circle_marker_7b193ec15133af5f2e9ee5e0af2408db.bindTooltip(
+                `<div>
+                     우미제일.전하리교회
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
